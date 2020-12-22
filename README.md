@@ -14,6 +14,9 @@ A "Generate QR Code for this Link" context action, wich generates a Popup Window
 ![Demonstration of the Context Menu Action](/screenshots/contextAction.gif)
 > Important Note: This features requires your permission for the current website to open popups
 
+## Installation
+Since I did not put this onto the Firefox Addons Hub, you can download the xpi [here](https://github.com/drblaui/Firefox-Link-to-QR-Code/releases/). Firefox should try to automatically install the extension upon download
+
 
 ## Todo
 - Style
