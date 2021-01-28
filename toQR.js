@@ -13,6 +13,16 @@ if (!(window.location.href).includes("api.qrserver.com")) {
     document.body.append(button);
 }
 
+//This is kinda hacky? Oh well
+setInterval(() => {
+    var img = document.getElementById("firefox-link-to-qr-image");
+    var baseLink = "https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=";
+    var targetLink = baseLink + window.location.href;
+    if (img.src != targetLink) {
+        img.src = targetLink;
+    }
+}, 1);
+
 
 function createDiv() {
     //Every QR Code should be 256x256, because that's big enough
@@ -36,6 +46,7 @@ function createDiv() {
 
     //QR Code
     var img = document.createElement('img');
+    img.id = "firefox-link-to-qr-image"
     img.src = targetLink;
     div.append(img);
     document.body.append(div);
