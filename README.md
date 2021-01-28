@@ -20,3 +20,4 @@ Since I did not put this onto the Firefox Addons Hub, you can download the xpi [
 
 ## Todo
 - Style
+- Register URL Mutations on sites like Twitter or awwapp
