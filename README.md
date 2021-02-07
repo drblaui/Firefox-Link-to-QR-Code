@@ -20,4 +20,4 @@ Since I did not put this onto the Firefox Addons Hub, you can download the xpi [
 
 ## Todo
 - Style
-
+- Link Clicking actually doesn't work
